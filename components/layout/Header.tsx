@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { NAV_ITEMS, SITE } from "@/lib/data";
 import { Icon } from "@/components/icons";
@@ -32,12 +33,12 @@ export function Header() {
       )}
     >
       <div className="container-luxury flex h-[76px] items-center justify-between">
-        <a href="/" className="flex items-center gap-2.5 font-heading text-xl font-bold tracking-tight text-white">
+        <Link href="/" className="flex items-center gap-2.5 font-heading text-xl font-bold tracking-tight text-white">
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary-gradient text-[#04231a] shadow-primary">
             <Icon name="diamond" size={18} strokeWidth={2} />
           </span>
           {SITE.name}
-        </a>
+        </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">
           {NAV_ITEMS.map((item) => (
