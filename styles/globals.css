@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #080b14;
+  color: #ffffff;
+}
+
+::selection {
+  background: rgba(31, 216, 164, 0.3);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #080b14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1c2740;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3a5c;
+}
+
+@layer components {
+  .glass {
+    @apply bg-card/60 backdrop-blur-xl border border-white/10;
+  }
+
+  .glass-strong {
+    @apply bg-card/80 backdrop-blur-2xl border border-white/10;
+  }
+
+  .container-luxury {
+    @apply mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:px-10;
+  }
+
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-primary;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-primary-gradient px-7 py-3.5 font-heading text-sm font-semibold text-[#04231a] shadow-primary transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_0_55px_-6px_rgba(31,216,164,0.6)] active:scale-[0.98];
+  }
+
+  .btn-glass {
+    @apply inline-flex items-center justify-center gap-2 rounded-full glass px-7 py-3.5 font-heading text-sm font-semibold text-white transition-all duration-300 hover:border-primary/40 hover:bg-white/10 active:scale-[0.98];
+  }
+
+  .gradient-border {
+    position: relative;
+    border-radius: inherit;
+  }
+  .gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: conic-gradient(
+      from var(--angle, 0deg),
+      #1fd8a4,
+      #7b3aed,
+      #2d8cff,
+      #00c78a,
+      #1fd8a4
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: rotate-border 6s linear infinite;
+    pointer-events: none;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes rotate-border {
+    to {
+      --angle: 360deg;
+    }
+  }
+
+  .text-gradient-primary {
+    @apply bg-primary-gradient bg-clip-text text-transparent;
+  }
+
+  .text-gradient-purple {
+    background: linear-gradient(135deg, #7b3aed, #2d8cff);
+    @apply bg-clip-text text-transparent;
+  }
+
+  .particle {
+    @apply pointer-events-none absolute rounded-full opacity-70 blur-[1px];
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-2xl bg-white/5;
+  }
+}
+
+@layer utilities {
+  .mask-radial-fade {
+    mask-image: radial-gradient(ellipse 70% 70% at 50% 40%, black 60%, transparent 100%);
+  }
+}
