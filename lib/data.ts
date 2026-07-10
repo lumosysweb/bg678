@@ -20,8 +20,18 @@ export const SITE = {
   url: "https://diuwin.in.net",
   tagline: "The Art of Winning, Redefined.",
   description:
-    "DiuWin is a premium gaming rewards platform delivering instant withdrawals, verified fairness, and an exclusive VIP experience built for players who expect more.",
+    "DiuWin is a premium Diuwin game and rewards platform delivering instant withdrawals, verified fairness, and an exclusive VIP experience built for players who expect more.",
 };
+
+export const KEYWORDS = [
+  "Diuwin",
+  "DiuWin",
+  "Diuwin game",
+  "Diuwin login",
+  "Diuwin rewards",
+  "Diuwin VIP",
+  "online gaming rewards platform",
+];
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "Home", href: "/" },
@@ -152,6 +162,7 @@ export const FOOTER_LINKS: FooterLinkGroup[] = [
     title: "Pages",
     links: [
       { label: "About DiuWin", href: "/about" },
+      { label: "Diuwin Login", href: "/login" },
       { label: "Download App", href: "#download" },
       { label: "VIP Club", href: "#vip" },
       { label: "Promotions", href: "#rewards" },

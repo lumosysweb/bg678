@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, Outfit } from "next/font/google";
-import { SITE } from "@/lib/data";
+import { SITE, KEYWORDS } from "@/lib/data";
 import { organizationSchema, websiteSchema } from "@/lib/seo";
 import { ToastProvider } from "@/components/ui/Toast";
 import "@/styles/globals.css";
@@ -33,12 +33,18 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
+  keywords: KEYWORDS,
+  applicationName: SITE.name,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
     url: SITE.url,
     siteName: SITE.name,
     type: "website",
+    locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
@@ -48,10 +54,22 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   verification: {
     google: "UWWFC1BQhro8tzO6aD8DLvQj8PmuxS51nr4qoZzWchM",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#080B14",
+  colorScheme: "dark",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

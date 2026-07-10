@@ -53,9 +53,9 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Button variant="glass" className="px-6 py-2.5" toastTitle="Login coming soon" toastDescription="This is a demo affiliate page — account login isn't wired up yet.">
+          <Link href="/login" className="btn-glass px-6 py-2.5">
             Login
-          </Button>
+          </Link>
           <Button className="px-6 py-2.5" toastTitle="Welcome to DiuWin" toastDescription="Registration flow is a demo on this landing page.">
             Register
           </Button>
@@ -89,9 +89,9 @@ export function Header() {
             </a>
           ))}
           <div className="mt-2 flex gap-3 px-3 pb-2">
-            <Button variant="glass" className="flex-1 py-2.5" toastTitle="Login coming soon">
+            <Link href="/login" onClick={() => setMobileOpen(false)} className="btn-glass flex-1 py-2.5">
               Login
-            </Button>
+            </Link>
             <Button className="flex-1 py-2.5" toastTitle="Welcome to DiuWin">
               Register
             </Button>

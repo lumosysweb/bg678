@@ -6,6 +6,7 @@ export function organizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE.name,
+    alternateName: ["Diuwin", "Diuwin Game"],
     url: SITE.url,
     logo: `${SITE.url}/images/logos/logo.png`,
     description: SITE.description,
