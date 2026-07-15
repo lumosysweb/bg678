@@ -12,8 +12,8 @@ export function AnnouncementBar() {
     <div className="relative flex items-center justify-center gap-2 overflow-hidden bg-primary-gradient px-4 py-2 text-center text-xs font-semibold text-[#04231a] sm:text-sm">
       <Icon name="sparkle" size={16} strokeWidth={2} />
       <p>
-        Welcome Bonus: Get up to <span className="font-heading">₹50,000</span> on your first
-        deposit — limited time.
+        BG678 Welcome Bonus: Get up to <span className="font-heading">₹50,000</span> on your
+        first deposit — limited time.
       </p>
       <button
         type="button"

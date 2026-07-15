@@ -4,11 +4,11 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { Reveal } from "@/components/ui/Reveal";
 import { Icon } from "@/components/icons";
-import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
-  description: `Get in touch with the ${SITE.name} team via live chat, WhatsApp, Telegram, or email.`,
+  title: "Contact BG678 — BG 678 Support Channels",
+  description:
+    "Get in touch with the BG678 (BG 678) team via live chat, WhatsApp, Telegram, or email — 24×7 support for every BG678 player.",
   alternates: { canonical: "/contact" },
 };
 
@@ -41,13 +41,13 @@ const CONTACT_CHANNELS = [
 
 export default function ContactPage() {
   return (
-    <PageShell breadcrumb={{ name: "Contact Us", path: "/contact" }}>
+    <PageShell breadcrumb={{ name: "Contact BG678", path: "/contact" }}>
       <section className="py-20 sm:py-28">
         <div className="container-luxury">
           <SectionHeading
-            eyebrow="Contact Us"
-            title="We're Here to Help"
-            description="Pick whichever channel is fastest for you — our concierge team responds around the clock."
+            eyebrow="Contact BG678"
+            title="We're Here to Help — BG678 Support"
+            description="Pick whichever channel is fastest for you — the BG678 concierge team responds around the clock."
           />
 
           <Reveal className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-5 sm:grid-cols-2">

@@ -5,23 +5,24 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { Reveal } from "@/components/ui/Reveal";
 import { Accordion } from "@/components/ui/Accordion";
 import { Icon } from "@/components/icons";
-import { COMMUNITY_LINKS, FAQ_ITEMS, SITE } from "@/lib/data";
+import { COMMUNITY_LINKS, FAQ_ITEMS } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Support Center",
-  description: `Get help from the ${SITE.name} concierge team, available 24×7 across live chat, WhatsApp, and Telegram.`,
+  title: "BG678 Support Center — BG 678 Help & Contact",
+  description:
+    "Get help from the BG678 (BG 678) concierge team, available 24×7 across live chat, WhatsApp, and Telegram, plus answers to common BG678 questions.",
   alternates: { canonical: "/support" },
 };
 
 export default function SupportPage() {
   return (
-    <PageShell breadcrumb={{ name: "Support Center", path: "/support" }}>
+    <PageShell breadcrumb={{ name: "BG678 Support Center", path: "/support" }}>
       <section className="py-20 sm:py-28">
         <div className="container-luxury">
           <SectionHeading
-            eyebrow="Support"
-            title="How Can We Help?"
-            description="Our concierge team is online 24×7. Reach us on any channel below for an instant response."
+            eyebrow="BG678 Support"
+            title="How Can BG678 Help You?"
+            description="The BG678 concierge team is online 24×7. Reach us on any channel below for an instant response."
           />
 
           <Reveal className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-2">
@@ -47,7 +48,7 @@ export default function SupportPage() {
           </Reveal>
 
           <Reveal className="mx-auto mt-12 max-w-3xl">
-            <h2 className="mb-6 text-center font-heading text-xl font-semibold text-white">Common Questions</h2>
+            <h2 className="mb-6 text-center font-heading text-xl font-semibold text-white">Common BG678 Questions</h2>
             <Accordion items={FAQ_ITEMS} />
           </Reveal>
         </div>

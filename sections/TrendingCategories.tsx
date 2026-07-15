@@ -8,9 +8,9 @@ export function TrendingCategories() {
     <section id="categories" className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Explore"
-          title="Popular Categories"
-          description="Eight curated worlds of play, each tuned for a different kind of thrill."
+          eyebrow="Explore BG678"
+          title="BG678 Game Categories"
+          description="Eight curated BG678 game categories, each tuned for a different kind of thrill."
         />
 
         <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:gap-5">

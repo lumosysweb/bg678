@@ -13,9 +13,9 @@ export function FAQ() {
       />
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Support"
-          title="Frequently Asked Questions"
-          description="Everything you need to know before you get started."
+          eyebrow="BG678 FAQ"
+          title="BG678 Frequently Asked Questions"
+          description="Everything you need to know about BG678 (Bg 678) before you get started."
         />
 
         <Reveal className="mx-auto mt-12 max-w-3xl">

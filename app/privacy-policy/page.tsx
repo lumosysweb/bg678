@@ -5,8 +5,8 @@ import { LegalContent } from "@/components/ui/LegalContent";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: `How ${SITE.name} collects, uses, and protects your personal information.`,
+  title: "BG678 Privacy Policy",
+  description: `How BG678 (BG 678) collects, uses, and protects your personal information on the ${SITE.name} platform.`,
   alternates: { canonical: "/privacy-policy" },
 };
 
@@ -53,13 +53,13 @@ const SECTIONS = [
 
 export default function PrivacyPolicyPage() {
   return (
-    <PageShell breadcrumb={{ name: "Privacy Policy", path: "/privacy-policy" }}>
+    <PageShell breadcrumb={{ name: "BG678 Privacy Policy", path: "/privacy-policy" }}>
       <section className="py-20 sm:py-28">
         <div className="container-luxury">
           <SectionHeading
             eyebrow="Legal"
-            title="Privacy Policy"
-            description={`This policy explains how ${SITE.name} handles your personal information.`}
+            title="BG678 Privacy Policy"
+            description={`This policy explains how ${SITE.name} (BG 678) handles your personal information.`}
           />
           <div className="mt-12">
             <LegalContent sections={SECTIONS} updatedAt="July 2026" />

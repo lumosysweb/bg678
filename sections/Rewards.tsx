@@ -16,9 +16,9 @@ export function Rewards() {
     <section id="rewards" className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Rewards Center"
-          title="A New Reason To Log In, Every Day"
-          description="Six ongoing reward streams stacked on top of your regular play — all in one place."
+          eyebrow="BG678 Rewards Center"
+          title="A New Reason To Log In To BG678, Every Day"
+          description="Six ongoing BG678 bonus and reward streams stacked on top of your regular play — all in one place."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

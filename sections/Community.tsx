@@ -9,9 +9,9 @@ export function Community() {
     <section id="community" className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Community"
-          title="Join The Conversation"
-          description="Live drops, exclusive gift codes, and a community of players who talk strategy, not just spins."
+          eyebrow="BG678 Community"
+          title="Join The BG678 Conversation"
+          description="Live drops, exclusive BG678 gift codes, and a community of players who talk strategy, not just spins."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">

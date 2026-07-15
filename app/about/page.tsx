@@ -7,42 +7,43 @@ import { Icon } from "@/components/icons";
 import { SITE, TRUST_BADGES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: `Learn about ${SITE.name}, a premium gaming rewards platform built for players who expect instant withdrawals, verified fairness, and an exclusive VIP experience.`,
+  title: "About BG678 — BG 678 Game Platform Overview",
+  description:
+    "Learn about BG678 (BG 678), a premium gaming rewards platform built for players who expect instant withdrawals, verified fairness, and an exclusive BG678 VIP experience.",
   alternates: { canonical: "/about" },
 };
 
 const VALUES = [
   {
     title: "Player-First",
-    description: "Every feature we ship is measured against one question: does this make play fairer and faster for our members.",
+    description: "Every feature we ship on BG678 is measured against one question: does this make play fairer and faster for our members.",
     icon: "users" as const,
   },
   {
     title: "Radical Transparency",
-    description: "Independently audited fairness certification and clear terms, with nothing buried in fine print.",
+    description: "BG678 runs on independently audited fairness certification and clear terms, with nothing buried in fine print.",
     icon: "shield" as const,
   },
   {
     title: "Relentless Speed",
-    description: "From onboarding to withdrawals, we obsess over shaving seconds off every step of the experience.",
+    description: "From BG678 onboarding to withdrawals, we obsess over shaving seconds off every step of the experience.",
     icon: "bolt" as const,
   },
   {
     title: "Rewarding Loyalty",
-    description: "The longer you play with us, the more we give back — through VIP tiers, cashback, and exclusive perks.",
+    description: "The longer you play with BG678, the more we give back — through VIP tiers, cashback, and exclusive perks.",
     icon: "gift" as const,
   },
 ];
 
 export default function AboutPage() {
   return (
-    <PageShell breadcrumb={{ name: "About Us", path: "/about" }}>
+    <PageShell breadcrumb={{ name: "About BG678", path: "/about" }}>
       <section className="py-20 sm:py-28">
         <div className="container-luxury">
           <SectionHeading
-            eyebrow="About Us"
-            title={`The Story Behind ${SITE.name}`}
+            eyebrow="About BG678"
+            title={`The Story Behind ${SITE.name} (BG 678)`}
             description={SITE.description}
           />
 

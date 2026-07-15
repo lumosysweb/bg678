@@ -29,7 +29,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} — ${SITE.tagline}`,
+    default: "BG678 — BG 678 Game, Login, Register & VIP Rewards Guide",
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: `${SITE.name} — ${SITE.tagline}`,
+    title: "BG678 — BG 678 Game, Login, Register & VIP Rewards Guide",
     description: SITE.description,
     url: SITE.url,
     siteName: SITE.name,
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.name} — ${SITE.tagline}`,
+    title: "BG678 — BG 678 Game, Login, Register & VIP Rewards Guide",
     description: SITE.description,
   },
   robots: {

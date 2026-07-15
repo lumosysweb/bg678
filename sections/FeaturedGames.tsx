@@ -10,9 +10,9 @@ export function FeaturedGames() {
     <section id="featured-games" className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Featured"
-          title="Featured Games"
-          description="Hand-picked titles our members are playing right now."
+          eyebrow="BG678 Featured"
+          title="Featured BG678 Games"
+          description="Hand-picked BG678 game titles our members are playing right now."
         />
 
         <div className="mt-12 grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">

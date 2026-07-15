@@ -10,9 +10,9 @@ export function VIPProgram() {
     <section id="vip" className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="VIP Club"
-          title="Five Tiers of Exclusive Privilege"
-          description="Climb the ranks through lifetime play and unlock escalating cashback, dedicated support, and bespoke rewards."
+          eyebrow="BG678 VIP Club"
+          title="BG678 VIP — Five Tiers of Exclusive Privilege"
+          description="Climb the BG678 VIP ranks through lifetime play and unlock escalating cashback, dedicated support, and bespoke rewards."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">

@@ -17,10 +17,10 @@ export function DownloadApp() {
         <div className="grid grid-cols-1 items-center gap-10 rounded-hero-xl border border-white/10 bg-luxury-radial bg-[#0b0f1c] p-8 sm:p-12 lg:grid-cols-2 lg:p-16">
           <Reveal>
             <span className="section-eyebrow">
-              <Icon name="android" size={14} /> Android App
+              <Icon name="android" size={14} /> BG678 Android App
             </span>
             <h2 className="mt-6 font-heading text-3xl font-bold leading-tight text-white sm:text-4xl">
-              Take the <span className="text-gradient-primary">Full Experience</span> Anywhere
+              Take the Full BG678 <span className="text-gradient-primary">Experience</span> Anywhere
             </h2>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted sm:text-base">
               Download the BG678 app directly as an APK — no store required — and carry every

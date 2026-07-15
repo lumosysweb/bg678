@@ -17,20 +17,21 @@ export function Hero() {
           <div>
             <Reveal>
               <span className="section-eyebrow">
-                <Icon name="crown" size={14} /> India's Most Premium Gaming Platform
+                <Icon name="crown" size={14} /> BG678 — India's Most Premium Gaming Platform
               </span>
             </Reveal>
 
             <Reveal delay={0.08}>
               <h1 className="mt-6 font-heading text-4xl font-bold leading-[1.1] text-white sm:text-5xl lg:text-[3.4rem]">
-                The Art of <span className="text-gradient-primary">Winning</span>, Redefined.
+                BG678 — The Art of <span className="text-gradient-primary">Winning</span>, Redefined.
               </h1>
             </Reveal>
 
             <Reveal delay={0.16}>
               <p className="mt-5 max-w-md text-sm leading-relaxed text-muted sm:text-base lg:text-lg">
-                Instant withdrawals, verified fairness, and a VIP experience crafted for players
-                who expect nothing less than excellence.
+                Instant withdrawals, verified fairness, and a BG678 VIP experience crafted for
+                players who expect nothing less than excellence. Login or register on BG678
+                (Bg 678) in minutes and explore the full BG678 game catalog.
               </p>
             </Reveal>
 

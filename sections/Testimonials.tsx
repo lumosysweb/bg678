@@ -9,9 +9,9 @@ export function Testimonials() {
     <section className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Members Speak"
-          title="Trusted By Thousands Of Players"
-          description="Real experiences from members across every VIP tier."
+          eyebrow="BG678 Members Speak"
+          title="Trusted By Thousands Of BG678 Players"
+          description="Real experiences from BG678 members across every VIP tier."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">

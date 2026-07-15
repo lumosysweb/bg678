@@ -9,9 +9,9 @@ import { Icon } from "@/components/icons";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "BG678 Login",
+  title: "BG678 Login — BG 678 Account Sign In",
   description:
-    "BG678 login — sign in to your BG678 account to access instant withdrawals, daily bonuses, and exclusive VIP rewards on the BG678 game platform.",
+    "BG678 login — sign in to your BG678 (BG 678) account to access instant withdrawals, daily bonuses, and exclusive VIP rewards on the BG678 game platform.",
   alternates: {
     canonical: "/login",
   },
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
 
 export default function LoginPage() {
   return (
-    <PageShell breadcrumb={{ name: "Login", path: "/login" }}>
+    <PageShell breadcrumb={{ name: "BG678 Login", path: "/login" }}>
       <section className="py-20 sm:py-28">
         <div className="container-luxury">
           <SectionHeading
             eyebrow="BG678 Login"
-            title="Login to Your BG678 Account"
+            title="Login to Your BG678 (BG 678) Account"
             description={`Access your ${SITE.name} account to claim daily rewards, track your VIP tier, and manage instant withdrawals.`}
           />
 
