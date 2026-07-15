@@ -15,21 +15,20 @@ import type {
 } from "@/types";
 
 export const SITE = {
-  name: "DiuWin",
-  domain: "diuwin.in.net",
-  url: "https://diuwin.in.net",
+  name: "BG678",
+  domain: "bg678.netlify.app",
+  url: "https://bg678.netlify.app",
   tagline: "The Art of Winning, Redefined.",
   description:
-    "DiuWin is a premium Diuwin game and rewards platform delivering instant withdrawals, verified fairness, and an exclusive VIP experience built for players who expect more.",
+    "BG678 is a premium gaming and rewards platform delivering instant withdrawals, verified fairness, and an exclusive VIP experience built for players who expect more.",
 };
 
 export const KEYWORDS = [
-  "Diuwin",
-  "DiuWin",
-  "Diuwin game",
-  "Diuwin login",
-  "Diuwin rewards",
-  "Diuwin VIP",
+  "BG678",
+  "BG678 game",
+  "BG678 login",
+  "BG678 rewards",
+  "BG678 VIP",
   "online gaming rewards platform",
 ];
 
@@ -135,11 +134,11 @@ export const REWARD_CARDS: RewardCard[] = [
 ];
 
 export const COMMUNITY_LINKS: CommunityLink[] = [
-  { name: "Telegram", handle: "@diuwin_official", icon: "telegram", href: "https://t.me/diuwin_official" },
-  { name: "Instagram", handle: "@diuwin.in", icon: "instagram", href: "https://instagram.com/diuwin.in" },
+  { name: "Telegram", handle: "@bg678_official", icon: "telegram", href: "https://t.me/bg678_official" },
+  { name: "Instagram", handle: "@bg678", icon: "instagram", href: "https://instagram.com/bg678" },
   { name: "WhatsApp", handle: "Chat with us", icon: "whatsapp", href: "https://wa.me/910000000000" },
-  { name: "YouTube", handle: "DiuWin Official", icon: "youtube", href: "https://youtube.com/@diuwin" },
-  { name: "Discord", handle: "DiuWin Community", icon: "discord", href: "https://discord.gg/diuwin" },
+  { name: "YouTube", handle: "BG678 Official", icon: "youtube", href: "https://youtube.com/@bg678" },
+  { name: "Discord", handle: "BG678 Community", icon: "discord", href: "https://discord.gg/bg678" },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
@@ -150,10 +149,10 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const FAQ_ITEMS: FAQItem[] = [
-  { question: "How fast are withdrawals processed on DiuWin?", answer: "Verified withdrawals are processed automatically and typically land in your account in under 60 seconds, 24 hours a day." },
-  { question: "Is DiuWin a licensed and secure platform?", answer: "Yes. DiuWin operates with independently audited fairness certification and bank-grade 256-bit encryption across every transaction." },
+  { question: "How fast are withdrawals processed on BG678?", answer: "Verified withdrawals are processed automatically and typically land in your account in under 60 seconds, 24 hours a day." },
+  { question: "Is BG678 a licensed and secure platform?", answer: "Yes. BG678 operates with independently audited fairness certification and bank-grade 256-bit encryption across every transaction." },
   { question: "How does the VIP membership program work?", answer: "Players progress through five VIP tiers based on lifetime play, unlocking escalating cashback, dedicated support, and exclusive rewards at each level." },
-  { question: "Can I download the DiuWin app?", answer: "Yes, the DiuWin Android app is available for direct APK download from the Download App section, with a lightweight, fast installation." },
+  { question: "Can I download the BG678 app?", answer: "Yes, the BG678 Android app is available for direct APK download from the Download App section, with a lightweight, fast installation." },
   { question: "What support channels are available?", answer: "Our concierge team is available 24×7 via live chat, WhatsApp, and Telegram for instant assistance." },
 ];
 
@@ -161,8 +160,8 @@ export const FOOTER_LINKS: FooterLinkGroup[] = [
   {
     title: "Pages",
     links: [
-      { label: "About DiuWin", href: "/about" },
-      { label: "Diuwin Login", href: "/login" },
+      { label: "About BG678", href: "/about" },
+      { label: "BG678 Login", href: "/login" },
       { label: "Download App", href: "#download" },
       { label: "VIP Club", href: "#vip" },
       { label: "Promotions", href: "#rewards" },

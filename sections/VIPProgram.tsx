@@ -58,7 +58,7 @@ export function VIPProgram() {
         <div className="mt-12 flex justify-center">
           <Button
             className="px-9 py-3.5"
-            toastTitle="Welcome to DiuWin"
+            toastTitle="Welcome to BG678"
             toastDescription="Registration flow is a demo on this landing page."
           >
             Join VIP Club

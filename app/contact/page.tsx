@@ -21,14 +21,14 @@ const CONTACT_CHANNELS = [
   },
   {
     title: "Telegram",
-    value: "@diuwin_official",
-    href: "https://t.me/diuwin_official",
+    value: "@bg678_official",
+    href: "https://t.me/bg678_official",
     icon: "telegram" as const,
   },
   {
     title: "Email",
-    value: "support@diuwin.in.net",
-    href: "mailto:support@diuwin.in.net",
+    value: "support@bg678.netlify.app",
+    href: "mailto:support@bg678.netlify.app",
     icon: "mail" as const,
   },
   {

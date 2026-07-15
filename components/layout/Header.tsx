@@ -56,7 +56,7 @@ export function Header() {
           <Link href="/login" className="btn-glass px-6 py-2.5">
             Login
           </Link>
-          <Button className="px-6 py-2.5" toastTitle="Welcome to DiuWin" toastDescription="Registration flow is a demo on this landing page.">
+          <Button className="px-6 py-2.5" toastTitle="Welcome to BG678" toastDescription="Registration flow is a demo on this landing page.">
             Register
           </Button>
         </div>
@@ -92,7 +92,7 @@ export function Header() {
             <Link href="/login" onClick={() => setMobileOpen(false)} className="btn-glass flex-1 py-2.5">
               Login
             </Link>
-            <Button className="flex-1 py-2.5" toastTitle="Welcome to DiuWin">
+            <Button className="flex-1 py-2.5" toastTitle="Welcome to BG678">
               Register
             </Button>
           </div>

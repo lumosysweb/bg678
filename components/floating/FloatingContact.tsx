@@ -13,7 +13,7 @@ export function FloatingContact() {
         <Icon name="whatsapp" size={22} />
       </a>
       <a
-        href="https://t.me/diuwin_official"
+        href="https://t.me/bg678_official"
         target="_blank"
         rel="noopener noreferrer nofollow"
         aria-label="Chat on Telegram"

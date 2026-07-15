@@ -16,9 +16,9 @@ export function FeatureCards() {
     <section className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Why DiuWin"
-          title="Why Choose DiuWin"
-          description="Four reasons players trust DiuWin over any other platform."
+          eyebrow="Why BG678"
+          title="Why Choose BG678"
+          description="Four reasons players trust BG678 over any other platform."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">

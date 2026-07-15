@@ -9,9 +9,9 @@ import { Icon } from "@/components/icons";
 import { SITE } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Diuwin Login",
+  title: "BG678 Login",
   description:
-    "Diuwin login — sign in to your Diuwin account to access instant withdrawals, daily bonuses, and exclusive VIP rewards on the Diuwin game platform.",
+    "BG678 login — sign in to your BG678 account to access instant withdrawals, daily bonuses, and exclusive VIP rewards on the BG678 game platform.",
   alternates: {
     canonical: "/login",
   },
@@ -23,8 +23,8 @@ export default function LoginPage() {
       <section className="py-20 sm:py-28">
         <div className="container-luxury">
           <SectionHeading
-            eyebrow="Diuwin Login"
-            title="Login to Your Diuwin Account"
+            eyebrow="BG678 Login"
+            title="Login to Your BG678 Account"
             description={`Access your ${SITE.name} account to claim daily rewards, track your VIP tier, and manage instant withdrawals.`}
           />
 
@@ -38,7 +38,7 @@ export default function LoginPage() {
                     <input
                       type="text"
                       name="identifier"
-                      placeholder="Enter your Diuwin username"
+                      placeholder="Enter your BG678 username"
                       className="w-full bg-transparent text-sm text-white outline-none placeholder:text-muted/70"
                     />
                   </span>
@@ -59,10 +59,10 @@ export default function LoginPage() {
 
                 <Button
                   className="mt-2 w-full py-3.5"
-                  toastTitle="Diuwin Login is a demo"
+                  toastTitle="BG678 Login is a demo"
                   toastDescription="Account login isn't wired up on this landing page yet."
                 >
-                  Login to Diuwin
+                  Login to BG678
                 </Button>
               </div>
 

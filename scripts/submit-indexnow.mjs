@@ -1,6 +1,6 @@
 import https from "node:https";
 
-const HOST = "diuwin.in.net";
+const HOST = "bg678.netlify.app";
 const KEY = "08efcab35796a50ca6b5ce108a034e5a";
 const URLS = [
   "",

@@ -8,14 +8,14 @@ export function BonusPopup() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    if (sessionStorage.getItem("diuwin-bonus-seen")) return;
+    if (sessionStorage.getItem("bg678-bonus-seen")) return;
     const timer = setTimeout(() => setOpen(true), 4000);
     return () => clearTimeout(timer);
   }, []);
 
   const close = () => {
     setOpen(false);
-    sessionStorage.setItem("diuwin-bonus-seen", "1");
+    sessionStorage.setItem("bg678-bonus-seen", "1");
   };
 
   if (!open) return null;
@@ -43,7 +43,7 @@ export function BonusPopup() {
         <Button
           className="mt-6 w-full py-3.5"
           onClick={close}
-          toastTitle="Welcome to DiuWin"
+          toastTitle="Welcome to BG678"
           toastDescription="Registration flow is a demo on this landing page."
         >
           Claim My Bonus

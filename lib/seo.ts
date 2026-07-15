@@ -6,15 +6,15 @@ export function organizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE.name,
-    alternateName: ["Diuwin", "Diuwin Game"],
+    alternateName: ["BG678", "BG678 Game"],
     url: SITE.url,
     logo: `${SITE.url}/images/logos/logo.png`,
     description: SITE.description,
     sameAs: [
-      "https://t.me/diuwin_official",
-      "https://instagram.com/diuwin.in",
-      "https://youtube.com/@diuwin",
-      "https://discord.gg/diuwin",
+      "https://t.me/bg678_official",
+      "https://instagram.com/bg678",
+      "https://youtube.com/@bg678",
+      "https://discord.gg/bg678",
     ],
   };
 }

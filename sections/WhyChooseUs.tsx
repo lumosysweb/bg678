@@ -9,7 +9,7 @@ export function WhyChooseUs() {
     <section className="py-20 sm:py-28">
       <div className="container-luxury">
         <SectionHeading
-          eyebrow="Why DiuWin"
+          eyebrow="Why BG678"
           title="Built For Players Who Expect More"
           description="Every detail of the platform is engineered around speed, security, and a genuinely premium experience."
         />

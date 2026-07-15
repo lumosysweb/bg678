@@ -23,7 +23,7 @@ export function DownloadApp() {
               Take the <span className="text-gradient-primary">Full Experience</span> Anywhere
             </h2>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted sm:text-base">
-              Download the DiuWin app directly as an APK — no store required — and carry every
+              Download the BG678 app directly as an APK — no store required — and carry every
               game, reward, and VIP perk in your pocket.
             </p>
 

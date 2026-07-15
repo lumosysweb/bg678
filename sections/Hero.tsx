@@ -38,7 +38,7 @@ export function Hero() {
               <div className="mt-9 flex flex-col gap-4 sm:flex-row">
                 <Button
                   className="px-9 py-4 text-base"
-                  toastTitle="Welcome to DiuWin"
+                  toastTitle="Welcome to BG678"
                   toastDescription="Registration flow is a demo on this landing page."
                 >
                   Register Now
@@ -71,7 +71,7 @@ export function Hero() {
               <div className="animate-float-slow">
                 <Image
                   src="/images/hero.webp"
-                  alt="DiuWin welcome bonus reward box surrounded by gold coins"
+                  alt="BG678 welcome bonus reward box surrounded by gold coins"
                   width={1100}
                   height={733}
                   priority
