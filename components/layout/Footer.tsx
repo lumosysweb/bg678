@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <footer className="border-t border-white/5 bg-[#05070d]">
       <div className="container-luxury py-16">
-        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-6">
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5 font-heading text-xl font-bold text-white">
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary-gradient text-[#04231a] shadow-primary">
@@ -57,10 +57,12 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-white/5 pt-8 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>© {year} {SITE.name}. All rights reserved.</p>
+          <p>{SITE.name} Guide · {year}</p>
           <p className="max-w-xl leading-relaxed">
-            18+ Only. Play Responsibly. {SITE.name} is an independent rewards and entertainment
-            platform. Nothing on this site constitutes financial advice or a guarantee of winnings.
+            18+ Only. Play Responsibly. This is a free, independent {SITE.name} guide and is not
+            officially affiliated with, endorsed by, or operated on behalf of any official BG678
+            brand or trademark owner. Nothing on this site constitutes financial advice or a
+            guarantee of winnings.
           </p>
         </div>
       </div>

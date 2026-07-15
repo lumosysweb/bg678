@@ -20,15 +20,23 @@ export const SITE = {
   url: "https://bg678.netlify.app",
   tagline: "The Art of Winning, Redefined.",
   description:
-    "BG678 is a premium gaming and rewards platform delivering instant withdrawals, verified fairness, and an exclusive VIP experience built for players who expect more.",
+    "BG678 (BG 678) is a free, independent guide to the BG678 game platform — covering BG678 login, BG678 register, APK download, bonuses, and the VIP rewards program, laid out in plain steps. This is an unofficial resource and is not affiliated with, endorsed by, or operated on behalf of any official BG678 brand.",
 };
 
 export const KEYWORDS = [
   "BG678",
+  "BG 678",
   "BG678 game",
   "BG678 login",
+  "BG678 register",
+  "BG678 app",
+  "BG678 apk",
+  "BG678 download",
   "BG678 rewards",
+  "BG678 bonus",
   "BG678 VIP",
+  "BG678 withdrawal",
+  "BG678 guide",
   "online gaming rewards platform",
 ];
 
@@ -117,11 +125,11 @@ export const TIMELINE: TimelineItem[] = [
 ];
 
 export const VIP_LEVELS: VIPLevel[] = [
-  { level: "VIP 1", name: "Bronze Circle", requirement: "₹10,000 lifetime play", perks: ["1% Cashback", "Standard Support"], gradient: "from-[#3a2a12] to-[#151F33]" },
-  { level: "VIP 2", name: "Silver Reserve", requirement: "₹50,000 lifetime play", perks: ["2% Cashback", "Priority Support", "Weekly Bonus"], gradient: "from-[#4a4a5a] to-[#151F33]" },
-  { level: "VIP 3", name: "Gold Estate", requirement: "₹2,00,000 lifetime play", perks: ["3.5% Cashback", "Priority Support", "Higher Limits"], gradient: "from-[#6b4a12] to-[#151F33]" },
-  { level: "VIP 4", name: "Platinum Vault", requirement: "₹5,00,000 lifetime play", perks: ["5% Cashback", "Dedicated Manager", "Birthday Gifts"], gradient: "from-[#5a5a6b] to-[#151F33]" },
-  { level: "VIP 5", name: "Diamond Legacy", requirement: "₹10,00,000 lifetime play", perks: ["7% Cashback", "Unlimited Limits", "Bespoke Rewards"], gradient: "from-primary/40 to-[#151F33]" },
+  { level: "VIP 1", name: "Bronze Circle", requirement: "₹10,000 lifetime play", perks: ["1% Cashback", "Standard Support"], gradient: "from-[#3a2a12] to-[#16291E]" },
+  { level: "VIP 2", name: "Silver Reserve", requirement: "₹50,000 lifetime play", perks: ["2% Cashback", "Priority Support", "Weekly Bonus"], gradient: "from-[#4a4a5a] to-[#16291E]" },
+  { level: "VIP 3", name: "Gold Estate", requirement: "₹2,00,000 lifetime play", perks: ["3.5% Cashback", "Priority Support", "Higher Limits"], gradient: "from-[#6b4a12] to-[#16291E]" },
+  { level: "VIP 4", name: "Platinum Vault", requirement: "₹5,00,000 lifetime play", perks: ["5% Cashback", "Dedicated Manager", "Birthday Gifts"], gradient: "from-[#5a5a6b] to-[#16291E]" },
+  { level: "VIP 5", name: "Diamond Legacy", requirement: "₹10,00,000 lifetime play", perks: ["7% Cashback", "Unlimited Limits", "Bespoke Rewards"], gradient: "from-primary/40 to-[#16291E]" },
 ];
 
 export const REWARD_CARDS: RewardCard[] = [
@@ -162,13 +170,24 @@ export const FOOTER_LINKS: FooterLinkGroup[] = [
     links: [
       { label: "About BG678", href: "/about" },
       { label: "BG678 Login", href: "/login" },
+      { label: "BG678 Register", href: "/register" },
       { label: "Download App", href: "#download" },
       { label: "VIP Club", href: "#vip" },
       { label: "Promotions", href: "#rewards" },
-      { label: "Leaderboard", href: "#vip" },
       { label: "Rewards Center", href: "#rewards" },
       { label: "Game Categories", href: "#categories" },
-      { label: "Referral Program", href: "#rewards" },
+    ],
+  },
+  {
+    title: "BG678 Guides",
+    links: [
+      { label: "BG678 Game", href: "/bg678-game" },
+      { label: "APK Download Guide", href: "/apk-download" },
+      { label: "VIP Club Guide", href: "/vip-club" },
+      { label: "Bonus Offers", href: "/bonus-offers" },
+      { label: "Withdrawal Guide", href: "/withdrawal-guide" },
+      { label: "How To Play", href: "/how-to-play" },
+      { label: "BG678 FAQ", href: "/faq" },
     ],
   },
   {
@@ -176,7 +195,7 @@ export const FOOTER_LINKS: FooterLinkGroup[] = [
     links: [
       { label: "Support Center", href: "/support" },
       { label: "Contact Us", href: "/contact" },
-      { label: "FAQ", href: "#faq" },
+      { label: "FAQ", href: "/faq" },
       { label: "Community", href: "#community" },
     ],
   },

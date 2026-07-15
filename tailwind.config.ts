@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#080B14",
-        card: "#101726",
-        "card-secondary": "#151F33",
+        background: "#05100B",
+        card: "#0E1F17",
+        "card-secondary": "#16291E",
         primary: "#1FD8A4",
         emerald: "#00C78A",
         "purple-glow": "#7B3AED",
@@ -36,7 +36,7 @@ const config: Config = {
       },
       backgroundImage: {
         "luxury-radial":
-          "radial-gradient(ellipse 80% 60% at 20% 20%, rgba(123,58,237,0.25), transparent 60%), radial-gradient(ellipse 70% 60% at 85% 30%, rgba(31,216,164,0.18), transparent 60%), radial-gradient(ellipse 60% 60% at 50% 100%, rgba(0,199,138,0.15), transparent 60%)",
+          "radial-gradient(ellipse 80% 60% at 20% 20%, rgba(31,216,164,0.20), transparent 60%), radial-gradient(ellipse 70% 60% at 85% 30%, rgba(0,199,138,0.22), transparent 60%), radial-gradient(ellipse 60% 60% at 50% 100%, rgba(123,58,237,0.12), transparent 60%)",
         "primary-gradient": "linear-gradient(135deg, #1FD8A4 0%, #00B383 50%, #1FD8A4 100%)",
         "purple-gradient": "linear-gradient(135deg, #7B3AED 0%, #2D8CFF 100%)",
       },

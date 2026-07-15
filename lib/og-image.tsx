@@ -10,7 +10,7 @@ export function SocialCard() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        background: "linear-gradient(135deg, #080B14 0%, #0d1424 55%, #080B14 100%)",
+        background: "linear-gradient(135deg, #05100B 0%, #0d1f16 55%, #05100B 100%)",
         fontFamily: "sans-serif",
       }}
     >

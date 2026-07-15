@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #080b14;
+  background-color: #05100b;
   color: #ffffff;
 }
 
@@ -24,14 +24,14 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #080b14;
+  background: #05100b;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1c2740;
+  background: #1c3327;
   border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2a3a5c;
+  background: #2a4a3a;
 }
 
 @layer components {
